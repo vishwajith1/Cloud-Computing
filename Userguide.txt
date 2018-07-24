@@ -1,0 +1,35 @@
+Name : Vishwajith
+Project : Cloud Prototype
+
+Sever 1 : Runs on server 0
+Server 2 : Runs on server 1
+Client : Rangre0/server 1
+
+Please run Xming softwaer on your windows before starting the server and client : 
+
+Path to download xming : https://sourceforge.net/projects/xming/ 
+Run and insatll
+
+Compile all the source code as following
+1. javac Server.java
+2. javac Server2.java
+3. javac Client.java
+
+All  class files will be created and they are the excecutables
+
+Steps to launch the cloud project:
+1 . Run server 1 on rabger 0 
+	java Server // always runs on port 9899
+2.Run server 2 on server 1
+	java Server2 // always runs on port 9999
+3. Run Client on server0/server 1
+	java Client portnumber  // supply port number as argument , if u want to connect to server 1 give 9899 else give 9999 for server 2
+
+After the client is connetced to server Give the server address.
+
+On successfull connection give username and password to access the Read/Write and Delete services on the server
+
+Follow the instructions given on by the server for using the services provide.
+
+Thank You :-)
+
